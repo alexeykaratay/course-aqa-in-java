@@ -6,7 +6,7 @@ import org.testng.asserts.SoftAssert;
 import service.MainPageService;
 import service.PoryadokOplatyService;
 
-import static page.MainPage.*;
+import static page.BasePage.*;
 
 public class MainPageTest extends BaseTest {
 

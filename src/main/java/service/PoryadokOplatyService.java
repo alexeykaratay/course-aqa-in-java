@@ -1,11 +1,11 @@
 package service;
 
 import io.qameta.allure.Step;
-import page.PorydokOplatyPage;
+import page.PorydokOplatyBasePage;
 
 public class PoryadokOplatyService {
 
-    PorydokOplatyPage porydokOplatyPage = new PorydokOplatyPage();
+    PorydokOplatyBasePage porydokOplatyPage = new PorydokOplatyBasePage();
 
     @Step("get current url")
     public String getCurrentUrl() {

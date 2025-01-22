@@ -10,7 +10,6 @@ public class WebDriverFactory {
 
     public static WebDriver getWebDriver() {
         WebDriver driver = null;
-        //DriverManager.chromedriver().setup();
         ChromeOptions chromeOptions = new ChromeOptions();
         chromeOptions.addArguments("--incognito");
         chromeOptions.addArguments("--remote-allow-origins=*");

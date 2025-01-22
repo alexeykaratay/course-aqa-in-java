@@ -4,7 +4,7 @@ import org.testng.annotations.Test;
 import org.testng.asserts.SoftAssert;
 import service.MainPageService;
 
-import static page.MainPage.*;
+import static page.BasePage.*;
 
 public class OtherTest {
 
