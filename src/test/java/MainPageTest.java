@@ -8,7 +8,7 @@ import service.PoryadokOplatyService;
 
 import static page.MainPage.*;
 
-public class MainPageTest extends BaseTest{
+public class MainPageTest extends BaseTest {
 
     private MainPageService mainPageService = new MainPageService();
     PoryadokOplatyService poryadokOplatyService = new PoryadokOplatyService();
