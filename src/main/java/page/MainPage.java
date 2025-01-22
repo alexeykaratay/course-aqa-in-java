@@ -8,12 +8,7 @@ import org.openqa.selenium.support.ui.WebDriverWait;
 
 import java.time.Duration;
 
-public class MainPage extends Page{
-
-    public static final String MAIN_PAGE_URL = "https://www.mts.by/";
-    public static final String TITLE_OF_BLOCK_PAY_ONLINE = "Онлайн пополнение\nбез комиссии";
-    public static final String PHONE_NUMBER = "297777777";
-    public static final String SUM = "10";
+public class MainPage extends BasePage {
 
     @FindBy(xpath = "//div[@class='pay__wrapper']")
     private WebElement blockOnlinePay;

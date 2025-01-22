@@ -1,9 +1,9 @@
 package service;
 
-import page.PorydokOplatyPage;
+import page.PorydokOplatyBasePage;
 
 public class PoryadokOplatyService {
-    PorydokOplatyPage porydokOplatyPage = new PorydokOplatyPage();
+    PorydokOplatyBasePage porydokOplatyPage = new PorydokOplatyBasePage();
 
     public String getCurrentUrl() {
         String url = porydokOplatyPage.getCurrentUrl();

@@ -1,6 +1,6 @@
 package page;
 
-public class PorydokOplatyPage extends Page {
+public class PorydokOplatyBasePage extends BasePage {
     public String getCurrentUrl() {
         return driver.getCurrentUrl();
     }
